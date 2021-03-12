@@ -67,7 +67,7 @@ make
 #### Setup:
 
  * Copy the `object_detection/darknet/data/robocup` folder into `darknet/data`.  
- * Copy the `.cfg` and the `scripts_DIR/` folder into `darknet`
+ * Copy the `.cfg` and the `scripts_DIR/` folder into `darknet/`
 
 #### Runtime:
 
