@@ -4,7 +4,7 @@ This repository contains [DIR's](http://dir.com.gr/) computer vision stack for t
 
 ### 1. Installation Instructions (Ubuntu 18):
  
-To install the darknet backend for YOLO object detection, the installation instructions and dependancies can be found from AlexeyAB`s repository. To simplify things, the user can install the following dependencies:
+To install the darknet backend for YOLO object detection, the installation instructions and dependancies can be found from AlexeyAB`s repository. To simplify things, the user can use the following instructions:
 
 #### Dependencies:
 
@@ -38,7 +38,7 @@ To install the darknet backend for YOLO object detection, the installation instr
 
 ##### cuDNN installation tips:
 
- - Once downloaded and unpacked (`tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz`), copy `cuda/include/*` and `cuda/lib64/*` into respective `/usr/local/cuda` folders.
+ * Once downloaded and unpacked (`tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz`), copy `cuda/include/*` and `cuda/lib64/*` into respective `/usr/local/cuda` folders.
 
 
 #### Build darknet using `make`:
@@ -66,7 +66,7 @@ make
 
 #### Setup:
 
- * Copy the `/object_detection/darknet/data/robocup` folder into `/darknet/data`.  
+ * Copy the `/object_detection/darknet/data/robocup` folder into `/darknet/data`.
  * Copy the `yolov3_custom.cfg` config file and the `/scripts_DIR` folder into `/darknet`.
  * Create a new `/dataset` folder in `/data/robocup` and paste images and their labels from DIR's    drive.
 
