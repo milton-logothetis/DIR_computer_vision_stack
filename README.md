@@ -12,6 +12,7 @@ To install the darknet backend for YOLO object detection, the installation instr
  * [cuDNN - v8.1.1](https://developer.nvidia.com/rdp/cudnn-download)
  * [OpenCV](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
 
+
 ##### CUDA-toolkit installation tips:
 
  * If you already have a CUDA-toolkit installed:
@@ -34,9 +35,11 @@ To install the darknet backend for YOLO object detection, the installation instr
 * Verify installation:
  `nvcc --version`	
 
+
 ##### cuDNN installation tips:
 
  - Once downloaded and unpacked (`tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz`) copy `cuda/include/*` and `cuda/lib64/*` into respective `/usr/local/cuda` folders.
+
 
 #### Build darknet using `make`:
  
