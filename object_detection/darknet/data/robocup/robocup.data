@@ -1,0 +1,6 @@
+classes= 4
+train  = data/robocup/train.txt
+valid  = data/robocup/test.txt
+names = data/robocup/robocup.names
+backup = backup/
+
