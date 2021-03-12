@@ -40,9 +40,11 @@ To install the darknet backend for YOLO object detection, the installation instr
 
 #### Build darknet using `make`:
  
-`cd ~/darknet`
+```
+cd ~/darknet
+```
  
-Edit Makefile:
+* Edit Makefile:
 ```ini
 CUDA=1
 CUDNN=1
@@ -51,9 +53,10 @@ LIBSO=1
 ARCH=(fill with supported nvidia arch)
 ```
 
-Build:
-
-`make`
+* Build:
+```
+make
+```
  
  
 
