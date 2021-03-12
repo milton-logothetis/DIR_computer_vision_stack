@@ -4,7 +4,7 @@ This repository contains [DIR's](http://dir.com.gr/) computer vision stack for t
 
 ### 1. Installation Instructions (Ubuntu 18):
  
-To install the darknet backend for YOLO object detection, the installation instructions and dependancies can be found from AlexeyAB`s repository. To simplify things, the user can use the following instructions:
+To install the darknet backend for YOLO object detection, the installation instructions and dependancies can be found from AlexeyAB's repository. To simplify things, the user can utilise the following instructions:
 
 #### Dependencies:
 
