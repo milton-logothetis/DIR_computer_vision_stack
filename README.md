@@ -38,7 +38,7 @@ To install the darknet backend for YOLO object detection, the installation instr
 
 ##### cuDNN installation tips:
 
- - Once downloaded and unpacked (`tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz`) copy `cuda/include/*` and `cuda/lib64/*` into respective `/usr/local/cuda` folders.
+ - Once downloaded and unpacked (`tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz`), copy `cuda/include/*` and `cuda/lib64/*` into respective `/usr/local/cuda` folders.
 
 
 #### Build darknet using `make`:
@@ -60,6 +60,22 @@ ARCH=(fill with supported nvidia arch)
 ```
 make
 ```
+
+
+### 2. DIR's YOLOv3
+
+#### Setup:
+
+ * Copy the `object_detection/darknet/data/robocup` folder into `darknet/data`.  
+ * Copy the `.cfg` and the `scripts_DIR/` folder into `darknet`
+
+#### Runtime:
+
+ * For calculating Mean Average Precision (MAP):
+ ```bash
+ cd scripts_DIR
+ ./test_map.sh
+ ```
  
  
 
