@@ -15,14 +15,14 @@ To install the darknet backend for YOLO object detection, the installation instr
 ##### CUDA-toolkit installation tips:
 
  * If you already have a CUDA-toolkit installed:
-	a. Remove previous installations:
-	'''
-	sudo apt-get purge --auto-remove nvidia-cuda-toolkit
-	'''
-	b. Clean previous binaries:
-	'''
-	sudo rm -rf /usr/local/cuda-xx.x
-	'''
+  a. Remove previous installations:
+ '''
+ sudo apt-get purge --auto-remove nvidia-cuda-toolkit
+ '''
+ b. Clean previous binaries:
+ '''
+ sudo rm -rf /usr/local/cuda-xx.x
+ '''
 
  * Rename '''/usr/local/cuda-11.2''' to '''/usr/local/cuda'''
  
@@ -40,7 +40,7 @@ To install the darknet backend for YOLO object detection, the installation instr
 
  - Once downloaded and unpacked ('''tar -xf cudnn-11.2-linux-x64-v8.1.1.33.tgz''') copy '''cuda/include/*''' and '''cuda/lib64/*''' into respective '''/usr/local/cuda''' folders.
 
-##### Build darknet:
+#### Build darknet:
  '''
  cd ~/darknet
  '''
