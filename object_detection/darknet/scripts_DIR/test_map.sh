@@ -2,5 +2,5 @@
 
 cd ..
 
-./darknet detector map data/robocup/robocup.data yolov3_custom.cfg data/robocup/weights/yolov3_attempt3.weights -thresh 0.75
+./darknet detector map data/robocup/robocup.data yolov3_custom.cfg data/robocup/weights/yolov3_custom_final.weights -thresh 0.75
 

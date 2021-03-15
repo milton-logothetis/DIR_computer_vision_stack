@@ -1,4 +1,13 @@
 bolt
 nut
-rouleman
-cube
+Bearing
+R20
+F20_20_B
+F20_20_G
+S40_40_B
+S40_40_G
+M20_100
+Bearing_box
+Axis
+Distance_tube
+Motor
