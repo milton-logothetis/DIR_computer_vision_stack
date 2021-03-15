@@ -62,15 +62,13 @@ make
 ```
 
 
-### 2. Object Detection (YOLOv3)
-
-#### Setup:
+### Setup:
 
  * Copy the `/object_detection/darknet/data/robocup` folder into `/darknet/data`.
  * Copy the `yolov3_custom.cfg` config file and the `/scripts_DIR` folder into `/darknet`.
  * Create a new `/dataset` folder in `/data/robocup` and paste images and their labels from [DIR's    drive]().
 
-#### Runtime:
+### Runtime:
 
  * For calculating Mean Average Precision (MAP):
  ```bash
@@ -79,17 +77,17 @@ make
  ```
  
 
-### 3. Cavity Detection
+## Cavity Detection
 
 *TODO*
 
 
-### 4. Barrier Stripe Detection
+## Barrier Stripe Detection
 
 *TODO*
 
 
-### 5. QR code detection
+## QR code detection
 
 *TODO*
  
