@@ -62,7 +62,7 @@ make
 ```
 
 
-### 2. DIR's YOLOv3
+### 2. Object Detection (YOLOv3)
 
 #### Setup:
 
