@@ -87,7 +87,7 @@ make
 *TODO*
 
 
-## QR code detection
+## QR Code Detection
 
 *TODO*
  
