@@ -78,6 +78,20 @@ make
  ./test_map.sh
  ```
  
+
+### 3. Cavity Detection
+
+*TODO*
+
+
+### 4. Barrier Stripe Detection
+
+*TODO*
+
+
+### 5. QR code detection
+
+*TODO*
  
 
 
