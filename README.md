@@ -8,7 +8,7 @@ To install the darknet backend for YOLO object detection, the installation instr
 
 #### Dependencies:
 
- * [CUDA - 11.2](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal)
+ * [CUDA - 11.2](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal) or [CUDA -11.2 (for ARM-based systems e.g Jetson](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=sbsa&compilation=compilation_native&target_distro=Ubuntu&target_version=1804&target_type=deblocal)
  * [cuDNN - v8.1.1](https://developer.nvidia.com/rdp/cudnn-download)
  * [OpenCV](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
 
